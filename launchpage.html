@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="launchpage.css">
+    <!-- Set the favicon for the page -->
+    <link rel="icon" href="images/favicon test.ico" type="image/x-icon">
+    <title>LaunchPage</title>
+</head>
+
+<body>
+    <!-- Button to open the FestiPlugs window -->
+    <a href="#" onclick="openTouchscreen()">Open touchscreen FestiPlugs</a>
+
+    <script>
+        function openTouchscreen() {
+            // Define features for the new window
+            const features = 'width=800,height=600,menubar=no,toolbar=no,resizable=no,scrollbars=no,status=no';
+
+            // Open the index.html window
+            const nieuwePagina = window.open("index.html", "_blank", features);
+
+            // Check if the window was successfully opened
+            if (nieuwePagina) {
+                // Set focus to the new window
+                nieuwePagina.focus();
+            }
+        }
+    </script>
+</body>
+
+</html>
