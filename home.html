@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="home.css">
+  <!-- Favicon for the browser tab -->
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+   <!-- Preconnect to Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Import the chosen font family from Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <title>Touchscreen FestiPlugs</title>
+</head>
+
+<!-- Navigation bar -->
+
+<body>
+  <div class="navigation">
+    <ul>
+      <!-- Home -->
+      <li class="list active">
+        <a href="#">
+          <span class="icon">
+            <ion-icon name="home-outline"></ion-icon>
+          </span>
+          <span class="text">Home</span>
+        </a>
+      </li>
+      <!-- Sizes -->
+      <li class="list">
+        <a href="#">
+          <span class="icon">
+            <img class="iconSIZES" src="images/sizes.png" alt="Sizes">
+          </span>
+          <span class="text">Sizes</span>
+        </a>
+      </li>
+      <!-- Colors -->
+      <li class="list">
+        <a href="#">
+          <span class="icon">
+            <img class="iconCOLORS" src="images/colors.png" alt="Colors">
+          </span>
+          <span class="text">Colors</span>
+        </a>
+      </li>
+      <!-- Pay -->
+      <li class="list">
+        <a href="#">
+          <span class="icon">
+            <img class="iconPAY" src="images/pay.png" alt="Colors">
+          </span>
+          <span class="text">Pay</span>
+        </a>
+      </li>
+      <!-- Completed -->
+      <li class="list">
+        <a href="#">
+          <span class="icon">
+            <img class="iconCOMPLETED" src="images/completed.png" alt="Colors">
+          </span>
+          <span class="text">Completed</span>
+        </a>
+      </li>
+      <!-- Indicator for active link -->
+      <div class="indicator"></div>
+    </ul>
+  </div>
+
+  <!-- Ionicons library for navigation icons -->
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <!-- JavaScript is placed at the end to ensure it is executed after the HTML content is loaded -->
+
+  <script src="home.js"></script>
+</body>
+
+</html>
