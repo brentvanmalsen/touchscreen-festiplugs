@@ -6,7 +6,7 @@
 }
 
 :root {
-    --clr: #222327;
+    --clr: #252722;
 }
 
 body {
@@ -14,8 +14,13 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: var(--clr)
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) -100%, var(--clr) 90%, var(--clr) 100%, rgba(0, 0, 0, 0) 100%),
+        url('images/background.png') center center fixed;
+    background-size: cover;
 }
+
+
+
 
 .navigation {
     position: fixed;
@@ -172,4 +177,64 @@ body {
     width: 30px;
     height: 30px;
     margin-top: 18.5px;
+}
+
+.wrapper {
+    box-sizing: content-box;
+    height: 43px;
+    padding: 50px 30px;
+    display: flex;
+    position: fixed;
+    top: -11px;
+}
+
+.words {
+    overflow: hidden;
+    position: relative;
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.3em;
+    outline: none;
+    width: 100%;
+    text-align: center;
+}
+
+.animatedrisks {
+    display: block;
+    height: 100%;
+    animation: spin_words 12s infinite;
+}
+
+@keyframes spin_words {
+    10% {
+        transform: translateY(-112%);
+    }
+
+    25% {
+        transform: translateY(-100%);
+    }
+
+    35% {
+        transform: translateY(-212%);
+    }
+
+    50% {
+        transform: translateY(-200%);
+    }
+
+    60% {
+        transform: translateY(-312%);
+    }
+
+    75% {
+        transform: translateY(-300%);
+    }
+
+    85% {
+        transform: translateY(-412%);
+    }
+
+    100% {
+        transform: translateY(-400%);
+    }
 }
