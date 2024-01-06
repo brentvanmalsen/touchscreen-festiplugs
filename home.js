@@ -1,12 +1,8 @@
+import SplitTextJS from 'split-text-js';
 // JavaScript for window resize
 window.addEventListener('resize', function () {
     window.resizeTo(400, 662);
 });
-// I did 400x662 because my code makes a 400x600 window, however
-// when I resize the windows it automatically shrunk in vertical size just
-// a little bit. This is why I made the resizeTo 62 pixels bigger than
-// the original size of the window to compensate for the height loss.
-
 
 // JavaScript for handling navigation
 const list = document.querySelectorAll('.list');
@@ -36,5 +32,28 @@ document.addEventListener('DOMContentLoaded', function () {
             }, 500);
         });
     });
-});
 
+    // Importeer SplitTextJS binnen de script-tag met type="module"
+
+
+    const titles = gsap.utils.toArray('.text-wrapper p');
+    const tl = gsap.timeline();
+
+    titles.forEach(title => {
+        const splitTitle = new SplitTextJS(title);
+
+        tl
+            .from(splitTitle.chars, {
+                opacity: 0,
+                y: 80,
+                rotateX: -90,
+                stagger: 0.02
+            }, "<")
+            .to(splitTitle.chars, {
+                opacity: 0,
+                y: -80,
+                rotateX: 90,
+                stagger: 0.02
+            }, "<1");
+    });
+});
