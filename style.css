@@ -238,3 +238,17 @@ body {
         transform: translateY(-400%);
     }
 }
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0 20px;
+}
+
+.logo {
+    max-width: 80%;
+    max-height: 80vh;
+    margin-bottom: 20px;
+}
