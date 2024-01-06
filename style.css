@@ -121,13 +121,14 @@ body {
     box-shadow: -1px -10px 0 0 var(--clr);
 }
 
-/* Adjusts the indicator position based on the active list item */
+/* Adjust the indicator position based on the active list item */
 
 /* First list item */
 .navigation ul li:nth-child(1).active~.indicator {
     transform: translateX(calc(70px * 0));
-    /* Moves the indicator to the first list item */
+    /* Move the indicator to the first list item */
 }
+
 
 .navigation ul li:nth-child(2).active~.indicator {
     transform: translateX(calc(70px * 1));
