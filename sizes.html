@@ -2,81 +2,195 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <!-- Favicon for the browser tab -->
-  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-   <!-- Preconnect to Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <!-- Import the chosen font family from Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-  <title>Touchscreen FestiPlugs</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sizes.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Favicon for the browser tab -->
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <!-- Preconnect to Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Import the chosen font family from Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <title>Touchscreen FestiPlugs</title>
 </head>
 
-<!-- Navigation bar -->
 
 <body>
-    <h1>Pagina Sizes</h1>
-  <div class="navigation">
-    <ul>
-      <!-- Home -->
-      <li class="list">
-        <a href="home.html">
-          <span class="icon">
-            <ion-icon name="home-outline"></ion-icon>
-          </span>
-          <span class="text">Home</span>
-        </a>
-      </li>
-      <!-- Sizes -->
-      <li class="list active">
-        <a href="sizes.html">
-          <span class="icon">
-            <img class="iconSIZES" src="images/sizes.png" alt="Sizes">
-          </span>
-          <span class="text">Sizes</span>
-        </a>
-      </li>
-      <!-- Colors -->
-      <li class="list">
-        <a href="colors.html">
-          <span class="icon">
-            <img class="iconCOLORS" src="images/colors.png" alt="Colors">
-          </span>
-          <span class="text">Colors</span>
-        </a>
-      </li>
-      <!-- Pay -->
-      <li class="list">
-        <a href="pay.html">
-          <span class="icon">
-            <img class="iconPAY" src="images/pay.png" alt="Colors">
-          </span>
-          <span class="text">Pay</span>
-        </a>
-      </li>
-      <!-- Completed -->
-      <li class="list">
-        <a href="completed.html">
-          <span class="icon">
-            <img class="iconCOMPLETED" src="images/completed.png" alt="Colors">
-          </span>
-          <span class="text">Completed</span>
-        </a>
-      </li>
-      <!-- Indicator for active link -->
-      <div class="indicator"></div>
-    </ul>
-  </div>
 
-  <!-- Ionicons library for navigation icons -->
-  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <!-- Size gallery -->
+
+    <div class="gallery">
+
+        <div class="content">
+            <img src="images/short.png">
+            <h3>Short</h3>
+            <p>Short acoustic filter tube</p>
+            <h6>€15,00</h6>
+            <ul>
+                <li><i class="fa fa-record-vinyl checked"></i></li>
+                <li><i class="fa fa-record-vinyl checked"></i></li>
+                <li><i class="fa fa-record-vinyl checked"></i></li>
+                <li><i class="fa fa-record-vinyl checked"></i></li>
+                <li><i class="fa fa-record-vinyl checked"></i></li>
+                <li><i class="fa fa-record-vinyl"></i></li>
+            </ul>
+            <div class="speechclarity">Speech Clarity</div>
+            <ul>
+                <li><i class="fa fa-record-vinyl checked"></i></li>
+                <li><i class="fa fa-record-vinyl checked"></i></li>
+                <li><i class="fa fa-record-vinyl"></i></li>
+                <li><i class="fa fa-record-vinyl"></i></li>
+                <li><i class="fa fa-record-vinyl"></i></li>
+                <li><i class="fa fa-record-vinyl"></i></li>
+            </ul>
+            <div class="musicdampening">Music Dampening</div>
+            <button class="buy-1">Select size</button>
+        </div>
+
+        <div class="content">
+            <img src="images/regular.png">
+            <h3>Regular</h3>
+            <p>Regular acoustic filter tube</p>
+            <h6>€15,00</h6>
+            <ul>
+                <li><i class="fa fa-record-vinyl checked"></i></li>
+                <li><i class="fa fa-record-vinyl checked"></i></li>
+                <li><i class="fa fa-record-vinyl checked"></i></li>
+                <li><i class="fa fa-record-vinyl"></i></li>
+                <li><i class="fa fa-record-vinyl"></i></li>
+                <li><i class="fa fa-record-vinyl"></i></li>
+            </ul>
+            <div class="speechclarity">Speech Clarity</div>
+            <ul>
+                <li><i class="fa fa-record-vinyl checked"></i></li>
+                <li><i class="fa fa-record-vinyl checked"></i></li>
+                <li><i class="fa fa-record-vinyl checked"></i></li>
+                <li><i class="fa fa-record-vinyl"></i></li>
+                <li><i class="fa fa-record-vinyl"></i></li>
+                <li><i class="fa fa-record-vinyl"></i></li>
+            </ul>
+            <div class="musicdampening">Music Dampening</div>
+            <button class="buy-2">Select size</button>
+        </div>
+
+        <div class="content">
+            <img src="images/long.png">
+            <h3>Long</h3>
+            <p>Long acoustic filter tube</p>
+            <h6>€15,00</h6>
+            <ul>
+                <li><i class="fa fa-record-vinyl checked"></i></li>
+                <li><i class="fa fa-record-vinyl checked"></i></li>
+                <li><i class="fa fa-record-vinyl"></i></li>
+                <li><i class="fa fa-record-vinyl"></i></li>
+                <li><i class="fa fa-record-vinyl"></i></li>
+                <li><i class="fa fa-record-vinyl"></i></li>
+            </ul>
+            <div class="speechclarity">Speech Clarity</div>
+            <ul>
+                <li><i class="fa fa-record-vinyl checked"></i></li>
+                <li><i class="fa fa-record-vinyl checked"></i></li>
+                <li><i class="fa fa-record-vinyl checked"></i></li>
+                <li><i class="fa fa-record-vinyl checked"></i></li>
+                <li><i class="fa fa-record-vinyl"></i></li>
+                <li><i class="fa fa-record-vinyl"></i></li>
+            </ul>
+            <div class="musicdampening">Music Dampening</div>
+            <button class="buy-3">Select size</button>
+        </div>
+
+        <div class="content">
+            <img src="images/extralong.png">
+            <h3>Extra Long</h3>
+            <p>Extra long acoustic filter tube</p>
+            <h6>€15,00</h6>
+            <ul>
+                <li><i class="fa fa-record-vinyl checked"></i></li>
+                <li><i class="fa fa-record-vinyl"></i></li>
+                <li><i class="fa fa-record-vinyl"></i></li>
+                <li><i class="fa fa-record-vinyl"></i></li>
+                <li><i class="fa fa-record-vinyl"></i></li>
+                <li><i class="fa fa-record-vinyl"></i></li>
+            </ul>
+            <div class="speechclarity">Speech Clarity</div>
+            <ul>
+                <li><i class="fa fa-record-vinyl checked"></i></li>
+                <li><i class="fa fa-record-vinyl checked"></i></li>
+                <li><i class="fa fa-record-vinyl checked"></i></li>
+                <li><i class="fa fa-record-vinyl checked"></i></li>
+                <li><i class="fa fa-record-vinyl checked"></i></li>
+                <li><i class="fa fa-record-vinyl"></i></li>
+            </ul>
+            <div class="musicdampening">Music Dampening</div>
+            <button class="buy-4">Select size</button>
+        </div>
+
+    </div>
+
+    <!-- Navigation bar -->
+
+    <div class="navigation">
+        <ul>
+            <!-- Home -->
+            <li class="list">
+                <a href="home.html">
+                    <span class="icon">
+                        <ion-icon name="home-outline"></ion-icon>
+                    </span>
+                    <span class="text">Home</span>
+                </a>
+            </li>
+            <!-- Sizes -->
+            <li class="list active">
+                <a href="sizes.html">
+                    <span class="icon">
+                        <img class="iconSIZES" src="images/sizes.png" alt="Sizes">
+                    </span>
+                    <span class="text">Sizes</span>
+                </a>
+            </li>
+            <!-- Colors -->
+            <li class="list">
+                <a href="colors.html">
+                    <span class="icon">
+                        <img class="iconCOLORS" src="images/colors.png" alt="Colors">
+                    </span>
+                    <span class="text">Colors</span>
+                </a>
+            </li>
+            <!-- Pay -->
+            <li class="list">
+                <a href="pay.html">
+                    <span class="icon">
+                        <img class="iconPAY" src="images/pay.png" alt="Colors">
+                    </span>
+                    <span class="text">Pay</span>
+                </a>
+            </li>
+            <!-- Completed -->
+            <li class="list">
+                <a href="completed.html">
+                    <span class="icon">
+                        <img class="iconCOMPLETED" src="images/completed.png" alt="Colors">
+                    </span>
+                    <span class="text">Completed</span>
+                </a>
+            </li>
+            <!-- Indicator for active link -->
+            <div class="indicator"></div>
+        </ul>
+    </div>
+
+    <!-- Ionicons library for navigation icons -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <!-- JavaScript is placed at the end to ensure it is executed after the HTML content is loaded -->
 
-  <script src="sizes.js"></script>
+    <script src="sizes.js"></script>
 </body>
 
 </html>
