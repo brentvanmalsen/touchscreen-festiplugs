@@ -2,81 +2,104 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="pay.css">
-  <!-- Favicon for the browser tab -->
-  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-   <!-- Preconnect to Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <!-- Import the chosen font family from Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-  <title>Touchscreen FestiPlugs</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pay.css">
+    <!-- Favicon for the browser tab -->
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <!-- Preconnect to Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Import the chosen font family from Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <title>Touchscreen FestiPlugs</title>
 </head>
 
-<!-- Navigation bar -->
+
 
 <body>
-  <h1>Pagina Pay</h1>
-  <div class="navigation">
-    <ul>
-      <!-- Home -->
-      <li class="list">
-        <a href="home.html">
-          <span class="icon">
-            <ion-icon name="home-outline"></ion-icon>
-          </span>
-          <span class="text">Home</span>
-        </a>
-      </li>
-      <!-- Sizes -->
-      <li class="list">
-        <a href="sizes.html">
-          <span class="icon">
-            <img class="iconSIZES" src="images/sizes.png" alt="Sizes">
-          </span>
-          <span class="text">Sizes</span>
-        </a>
-      </li>
-      <!-- Colors -->
-      <li class="list">
-        <a href="colors.html">
-          <span class="icon">
-            <img class="iconCOLORS" src="images/colors.png" alt="Colors">
-          </span>
-          <span class="text">Colors</span>
-        </a>
-      </li>
-      <!-- Pay -->
-      <li class="list active">
-        <a href="pay.html">
-          <span class="icon">
-            <img class="iconPAY" src="images/pay.png" alt="Colors">
-          </span>
-          <span class="text">Pay</span>
-        </a>
-      </li>
-      <!-- Completed -->
-      <li class="list">
-        <a href="completed.html">
-          <span class="icon">
-            <img class="iconCOMPLETED" src="images/completed.png" alt="Colors">
-          </span>
-          <span class="text">Completed</span>
-        </a>
-      </li>
-      <!-- Indicator for active link -->
-      <div class="indicator"></div>
-    </ul>
-  </div>
+    <div class="container">
+        <button type="submit" class="btn" onclick="openPopup()"></button>
+        <div class="popup" id="popup">
+            <img src="images/tick.png" alt="Tick Icon">
+            <h2>Thank You!</h2>
+            <p>The transaction was successfull. Please retrieve the FestiPlugs from the bottom compartment.</p>
+            <button type="button" onclick="closePopup()">OK</button>
+        </div>
+    </div>
 
-  <!-- Ionicons library for navigation icons -->
-  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script>
+        let popup = document.getElementById("popup");
+
+        function openPopup() {
+            popup.classList.add("open-popup");
+        }
+        function closePopup() {
+            popup.classList.remove("open-popup");
+        }
+
+    </script>
+
+    <!-- Navigation bar -->
+
+    <div class="navigation">
+        <ul>
+            <!-- Home -->
+            <li class="list">
+                <a href="home.html">
+                    <span class="icon">
+                        <ion-icon name="home-outline"></ion-icon>
+                    </span>
+                    <span class="text">Home</span>
+                </a>
+            </li>
+            <!-- Sizes -->
+            <li class="list">
+                <a href="sizes.html">
+                    <span class="icon">
+                        <img class="iconSIZES" src="images/sizes.png" alt="Sizes">
+                    </span>
+                    <span class="text">Sizes</span>
+                </a>
+            </li>
+            <!-- Colors -->
+            <li class="list">
+                <a href="colors.html">
+                    <span class="icon">
+                        <img class="iconCOLORS" src="images/colors.png" alt="Colors">
+                    </span>
+                    <span class="text">Colors</span>
+                </a>
+            </li>
+            <!-- Pay -->
+            <li class="list active">
+                <a href="pay.html">
+                    <span class="icon">
+                        <img class="iconPAY" src="images/pay.png" alt="Colors">
+                    </span>
+                    <span class="text">Pay</span>
+                </a>
+            </li>
+            <!-- Completed -->
+            <li class="list">
+                <a href="completed.html">
+                    <span class="icon">
+                        <img class="iconCOMPLETED" src="images/completed.png" alt="Colors">
+                    </span>
+                    <span class="text">Completed</span>
+                </a>
+            </li>
+            <!-- Indicator for active link -->
+            <div class="indicator"></div>
+        </ul>
+    </div>
+
+    <!-- Ionicons library for navigation icons -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <!-- JavaScript is placed at the end to ensure it is executed after the HTML content is loaded -->
 
-  <script src="home.js"></script>
+    <script src="home.js"></script>
 </body>
 
 </html>
