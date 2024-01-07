@@ -424,4 +424,22 @@ h6 {
     margin-bottom: -2px;
 }
   
-  
+.content .short{
+    margin-top: 5px;
+    margin-bottom: -5px;
+}
+
+.content .regular{
+    margin-top: 5px;
+    margin-bottom: -5px;
+}
+
+.content .long{
+    margin-top: 4px;
+    margin-bottom: -6px;
+}
+
+.content .extralong{
+    margin-top: 5px;
+    margin-bottom: -5px;
+}
