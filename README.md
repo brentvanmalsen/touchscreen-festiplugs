@@ -53,7 +53,7 @@ Here are some notes and considerations for using or developing this project:
 - The interactive screen is optimized for one resolution only and may not work as expected on other resolutions.
 - For the best experience, use modern web browsers like Chrome or Firefox.
 
-## Changed and extensions
+## Changes and extensions
 
 If you have ideas for improvements or want to extend the functionality, consider the following:
 
@@ -64,5 +64,5 @@ If you have ideas for improvements or want to extend the functionality, consider
 
 ## Author
 
-Name: Brent van Malsen
+Name: Brent van Malsen  
 GitLab: https://git.fhict.nl/I507960
