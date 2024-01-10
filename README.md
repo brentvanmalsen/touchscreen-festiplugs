@@ -23,22 +23,22 @@ For my Passion Project, I created an interactive screen using HTML, CSS, and Jav
 
 ## Structure of the repository
 
--- launchpage.html
--- launchpage.css
--- home.html
--- home.css
--- home.js
--- sizes.html
--- sizes.css
--- sizes.js
--- colors.html
--- colors.css
--- colors.js
--- pay.html
--- pay.css
--- pay.js
--- completed.html
--- completed.css
+-- launchpage.html  
+-- launchpage.css  
+-- home.html  
+-- home.css  
+-- home.js  
+-- sizes.html  
+-- sizes.css  
+-- sizes.js  
+-- colors.html  
+-- colors.css  
+-- colors.js  
+-- pay.html  
+-- pay.css  
+-- pay.js  
+-- completed.html  
+-- completed.css  
 -- completed.js
 
 ## Requirements
