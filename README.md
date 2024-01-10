@@ -1,12 +1,25 @@
 # Touchscreen FestiPlugs
 
+For my Passion Project, I created an interactive screen using HTML, CSS, and JavaScript. I refer to it as an interactive screen because it can be likened to an ordering screen at McDonald's or JD, representing a similar concept. I chose to work on this project to enhance my programming skills and delve into creating animations using CSS and JavaScript. To achieve this, I dedicated time to programming regularly and sought guidance through tutorials on YouTube, Stack Overflow, and other resources.
 
+## Instructies
 
-## Getting started
+1. **Clone de repository:**
+   git clone [https://git.fhict.nl/I507960/touchscreen-festiplugs.git]
 
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
+2. **Navigate through the Pages:**
+   Start with launchpage.html to initiate the FestiPlugs screen.
+   Proceed to home.html after launching to explore the home screen.
 
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
+3. **Explore sections:**
+   Move to sizes.html to choose from four different sizes of FestiPlugs.
+   Continue to colors.html to customize FestiPlugs with various color options.
+   
+4. **Payment process:**
+   Complete the customization by going to pay.html for payment.
+
+5. **Final confirmation**
+   Check the completed.html page to confirm the successful completion of the FestiPlugs customization process.
 
 ## Add your files
 
