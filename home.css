@@ -17,7 +17,8 @@ body {
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0) -100%, var(--clr) 90%, var(--clr) 100%, rgba(0, 0, 0, 0) 100%),
         url('images/background.png') center center fixed;
     background-size: cover;
-    background-attachment: fixed; /* Voeg deze regel toe */
+    background-attachment: fixed;
+    /* Voeg deze regel toe */
 }
 
 .navigation {
@@ -239,6 +240,7 @@ body {
 
 .logo-container {
     display: flex;
+    flex-direction: column; /* Wijzig hier naar column */
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -250,3 +252,27 @@ body {
     max-height: 80vh;
     margin-bottom: 25px;
 }
+
+/* Button style */
+.sizes-button {
+    display: inline-block;
+    background-color: #fbe54f;
+    color: var(--clr);
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-weight: 500;
+    transition: background-color 0.3s;
+    margin-bottom: 10px;
+}
+
+.sizes-button:hover {
+    background-color: #ffd866;
+}
+
+/* Button text style */
+.button-text {
+    font-size: 1em;
+}
+
