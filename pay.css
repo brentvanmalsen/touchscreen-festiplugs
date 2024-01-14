@@ -262,7 +262,7 @@ body {
     cursor: pointer;
     border-radius: 10px;
     position: absolute;
-    top: 65%;
+    top: 58%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -319,6 +319,13 @@ body {
 .contactless-pay {
     display: block;
     margin: 0 auto;
-    width: 150px; /* Aanpassen naar de gewenste breedte */
-    margin-bottom: 20px; /* Aanpassen naar de gewenste ruimte tussen de afbeelding en de knop */
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.payment-text {
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    margin-bottom: 373px;
 }
