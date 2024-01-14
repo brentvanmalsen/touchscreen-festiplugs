@@ -1,3 +1,8 @@
+// JavaScript for window resize
+window.addEventListener('resize', function () {
+    window.resizeTo(400, 662);
+});
+
 // JavaScript for handling navigation
 const list = document.querySelectorAll('.list');
 
