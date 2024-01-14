@@ -300,29 +300,29 @@ a {
     border: 2px solid transparent;
     border-radius: 20px;
     animation: borderAnimation 3s infinite linear;
+    pointer-events: none;
 }
 
 @keyframes borderAnimation {
     0% {
         border-color: #FFD700;
     }
+
     25% {
         border-color: #FF4500;
     }
+
     50% {
         border-color: #FFD700;
     }
+
     75% {
         border-color: #FF4500;
     }
+
     100% {
         border-color: #FFD700;
     }
-}
-
-.content:hover {
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-    transform: translate(0px, -8px);
 }
 
 .content img {
@@ -366,11 +366,6 @@ h6 {
 
 .checked {
     color: #ff9f43;
-}
-
-.fa:hover {
-    transform: scale(1.3);
-    transition: .6s;
 }
 
 .content button {
@@ -423,23 +418,37 @@ h6 {
     color: white;
     margin-bottom: -2px;
 }
-  
-.content .short{
+
+.content .short {
     margin-top: 5px;
     margin-bottom: -5px;
 }
 
-.content .regular{
+.content .regular {
     margin-top: 5px;
     margin-bottom: -5px;
 }
 
-.content .long{
+.content .long {
     margin-top: 4px;
     margin-bottom: -6px;
 }
 
-.content .extralong{
+.content .extralong {
     margin-top: 5px;
     margin-bottom: -5px;
+}
+
+.button-style {
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+    width: 100%;
+    padding: 15px;
+    outline: none;
+    cursor: pointer;
+    margin-top: 14px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background: #ff9f43;
 }
