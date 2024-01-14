@@ -326,8 +326,7 @@ a {
 }
 
 .content img {
-    width: 200px;
-    height: 200px;
+    width: 184px;
     text-align: center;
     margin: 0 auto;
     display: block;
@@ -344,6 +343,7 @@ h6 {
     text-align: center;
     color: #ff9f43;
     margin: 0;
+    padding: 4px;
 }
 
 .content ul {
@@ -373,7 +373,7 @@ h6 {
     font-size: 24px;
     color: #fff;
     width: 100%;
-    padding: 15px;
+    padding: 16px;
     outline: none;
     cursor: pointer;
     margin-top: 14px;
@@ -411,12 +411,13 @@ h6 {
 
 .speechclarity {
     color: white;
-    margin-bottom: 3px;
+    margin-bottom: 10px;
 }
 
 .musicdampening {
     color: white;
-    margin-bottom: -2px;
+    /* margin-bottom: -2px; */
+    margin-bottom: 1px;
 }
 
 .content .short {
@@ -437,18 +438,4 @@ h6 {
 .content .extralong {
     margin-top: 5px;
     margin-bottom: -5px;
-}
-
-.button-style {
-    text-align: center;
-    font-size: 24px;
-    color: #fff;
-    width: 100%;
-    padding: 15px;
-    outline: none;
-    cursor: pointer;
-    margin-top: 14px;
-    border-bottom-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    background: #ff9f43;
 }
