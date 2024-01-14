@@ -300,6 +300,7 @@ a {
     border: 2px solid transparent;
     border-radius: 20px;
     animation: borderAnimation 3s infinite linear;
+    pointer-events: none;
 }
 
 @keyframes borderAnimation {
@@ -318,11 +319,6 @@ a {
     100% {
         border-color: #FFD700;
     }
-}
-
-.content:hover {
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-    transform: translate(0px, -8px);
 }
 
 .content img {
