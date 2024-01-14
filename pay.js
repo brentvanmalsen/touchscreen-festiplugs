@@ -1,20 +1,12 @@
-// JavaScript for window resize
-window.addEventListener('resize', function () {
-    window.resizeTo(400, 662);
-});
-// I did 400x662 because my code makes a 400x600 window, however
-// when I resize the windows it automatically shrunk in vertical size just
-// a little bit. This is why I made the resizeTo 62 pixels bigger than
-// the original size of the window to compensate for the height loss.
-
-
 // JavaScript for handling navigation
 const list = document.querySelectorAll('.list');
+
 function activeLink() {
     list.forEach((item) =>
         item.classList.remove('active'));
     this.classList.add('active');
 }
+
 list.forEach((item) =>
     item.addEventListener('click', activeLink));
 
@@ -36,5 +28,24 @@ document.addEventListener('DOMContentLoaded', function () {
             }, 500);
         });
     });
+
+    // Select the OK button in the popup
+    const okButton = document.querySelector('#popup button');
+
+    // Add a click event to the OK button
+    okButton.addEventListener('click', function () {
+        // Simulate a click on the Completed link in the navigation
+        const completedNavLink = document.querySelector('.navigation .list:nth-child(5)'); // Assuming Completed is the fifth item
+        completedNavLink.click();
+    });
 });
 
+// JavaScript for the popup
+function openPopup() {
+    const popup = document.getElementById("popup");
+    popup.classList.add("open-popup");
+}
+
+function closePopup() {
+    // You can leave this function empty, or perform any other actions you want
+}
