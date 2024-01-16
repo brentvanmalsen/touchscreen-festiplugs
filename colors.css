@@ -305,23 +305,23 @@ a {
 
 @keyframes borderAnimation {
     0% {
-        border-color: #FFD700;
+        border-color: #7d1710;
     }
 
     25% {
-        border-color: #FF4500;
+        border-color: #ff5441;
     }
 
     50% {
-        border-color: #FFD700;
+        border-color: #7d1710;
     }
 
     75% {
-        border-color: #FF4500;
+        border-color: #ff5441;
     }
 
     100% {
-        border-color: #FFD700;
+        border-color: #7d1710;
     }
 }
 
@@ -382,19 +382,19 @@ h6 {
 }
 
 .buy-1 {
-    background: #ff9f43;
+    background: #ff5441;
 }
 
 .buy-2 {
-    background: #ff9f43;
+    background: #ff5441;
 }
 
 .buy-3 {
-    background: #ff9f43;
+    background: #ff5441;
 }
 
 .buy-4 {
-    background: #ff9f43;
+    background: #ff5441;
 }
 
 @media(max-width:1000px) {

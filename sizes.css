@@ -305,23 +305,23 @@ a {
 
 @keyframes borderAnimation {
     0% {
-        border-color: #FFD700;
+        border-color: #7d1710;
     }
 
     25% {
-        border-color: #FF4500;
+        border-color: #ff5441;
     }
 
     50% {
-        border-color: #FFD700;
+        border-color: #7d1710;
     }
 
     75% {
-        border-color: #FF4500;
+        border-color: #ff5441;
     }
 
     100% {
-        border-color: #FFD700;
+        border-color: #7d1710;
     }
 }
 
@@ -341,7 +341,7 @@ a {
 h6 {
     font-size: 26px;
     text-align: center;
-    color: #ff9f43;
+    color: #ff5441;
     margin: 0;
     padding: 4px;
 }
@@ -365,7 +365,7 @@ h6 {
 }
 
 .checked {
-    color: #ff9f43;
+    color: #ff5441;
 }
 
 .content button {
@@ -382,19 +382,19 @@ h6 {
 }
 
 .buy-1 {
-    background: #ff9f43;
+    background: #ff5441;
 }
 
 .buy-2 {
-    background: #ff9f43;
+    background: #ff5441;
 }
 
 .buy-3 {
-    background: #ff9f43;
+    background: #ff5441;
 }
 
 .buy-4 {
-    background: #ff9f43;
+    background: #ff5441;
 }
 
 @media(max-width:1000px) {
