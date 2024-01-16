@@ -251,28 +251,35 @@ body {
 .logo {
     max-width: 80%;
     max-height: 80vh;
-    margin-bottom: 25px;
+    margin-bottom: 71px;
 }
 
-/* Button style */
 .sizes-button {
-    display: inline-block;
+    position: fixed;
+    bottom: 127px; /* Pas dit aan naar de gewenste afstand vanaf de bodem */
+    left: 50%;
+    transform: translateX(-50%);
+    display: inline-flex;
+    align-items: center;
     background-color: #fbe54f;
     color: var(--clr);
-    padding: 10px 20px;
+    padding: 11px 20px;
     text-decoration: none;
-    border-radius: 5px;
-    margin-top: 20px;
+    border-radius: 50px;
     font-weight: 500;
     transition: background-color 0.3s;
     margin-bottom: 10px;
 }
 
-.sizes-button:hover {
-    background-color: #ffd866;
-}
-
-/* Button text style */
 .button-text {
     font-size: 1em;
+    margin-left: 10px;
+}
+
+.button-icon {
+    width: 35px;
+    margin-right: 8px;
+    margin-top: -1px;
+    margin-bottom: -2px;
+    transform: rotate(45deg);
 }
