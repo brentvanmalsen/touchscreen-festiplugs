@@ -250,3 +250,34 @@ body {
     max-height: 80vh;
     margin-bottom: 25px;
 }
+
+/* Je bestaande stijlen hierboven blijven ongewijzigd */
+
+.content {
+    text-align: center;
+    margin-top: 50px; /* Aanpassen naar gewenste ruimte boven de tekst en afbeelding */
+}
+
+.center-text {
+    color: white;
+    font-size: 24px; /* Iets groter lettertype */
+    margin-bottom: 20px;
+    max-width: 297px; /* Maximaal 216 pixels breed */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center-image {
+    margin-top: 64px; /* Aanpassen naar gewenste ruimte tussen tekst en afbeelding */
+    display: flex;
+    justify-content: center; /* Uitlijning met de breedte van de QR-code */
+    margin-bottom: 126px;
+}
+
+.center-image img {
+    max-width: 100%;
+    width: 216px;
+    height: auto;
+    border-radius: 10px; /* Of elke gewenste randstijl */
+}
+
