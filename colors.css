@@ -305,23 +305,23 @@ a {
 
 @keyframes borderAnimation {
     0% {
-        border-color: #7d1710;
+        border-color: #fc7e00;
     }
 
     25% {
-        border-color: #ff5441;
+        border-color: #a56a2b;
     }
 
     50% {
-        border-color: #7d1710;
+        border-color: #fc7e00;
     }
 
     75% {
-        border-color: #ff5441;
+        border-color: #a56a2b;
     }
 
     100% {
-        border-color: #7d1710;
+        border-color: #fc7e00;
     }
 }
 
@@ -382,19 +382,19 @@ h6 {
 }
 
 .buy-1 {
-    background: #ff5441;
+    background: #f2a356;
 }
 
 .buy-2 {
-    background: #ff5441;
+    background: #f2a356;
 }
 
 .buy-3 {
-    background: #ff5441;
+    background: #f2a356;
 }
 
 .buy-4 {
-    background: #ff5441;
+    background: #f2a356;
 }
 
 @media(max-width:1000px) {

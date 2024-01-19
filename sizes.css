@@ -256,7 +256,7 @@ h3 {
     font-size: 30px;
     margin: 0;
     padding-top: 10px;
-    color: white;
+    color: #ffffff;
 }
 
 a {
@@ -305,23 +305,23 @@ a {
 
 @keyframes borderAnimation {
     0% {
-        border-color: #7d1710;
+        border-color: #fc7e00;
     }
 
     25% {
-        border-color: #ff5441;
+        border-color: #a56a2b;
     }
 
     50% {
-        border-color: #7d1710;
+        border-color: #fc7e00;
     }
 
     75% {
-        border-color: #ff5441;
+        border-color: #a56a2b;
     }
 
     100% {
-        border-color: #7d1710;
+        border-color: #fc7e00;
     }
 }
 
@@ -341,7 +341,7 @@ a {
 h6 {
     font-size: 26px;
     text-align: center;
-    color: #ff5441;
+    color: #f2a356;
     margin: 0;
     padding: 4px;
 }
@@ -365,13 +365,13 @@ h6 {
 }
 
 .checked {
-    color: #ff5441;
+    color: #f2a356;
 }
 
 .content button {
     text-align: center;
     font-size: 24px;
-    color: #fff;
+    color: #ffffff;
     width: 100%;
     padding: 16px;
     outline: none;
@@ -379,22 +379,24 @@ h6 {
     margin-top: 14px;
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
+    border: 0;
+    border-color: white;
 }
 
 .buy-1 {
-    background: #ff5441;
+    background: #f2a356;
 }
 
 .buy-2 {
-    background: #ff5441;
+    background: #f2a356;
 }
 
 .buy-3 {
-    background: #ff5441;
+    background: #f2a356;
 }
 
 .buy-4 {
-    background: #ff5441;
+    background: #f2a356;
 }
 
 @media(max-width:1000px) {

@@ -279,7 +279,7 @@ body {
 .button-icon {
     width: 35px;
     margin-right: 8px;
-    margin-top: -1px;
-    margin-bottom: -2px;
+    margin-top: -4px;
+    margin-bottom: 0px;
     transform: rotate(45deg);
 }
