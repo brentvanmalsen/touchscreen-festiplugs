@@ -5,7 +5,7 @@ For my Passion Project, I created an interactive screen using HTML, CSS, and Jav
 ## Instructions
 
 1. **Clone the repository:**
-   git clone [https://git.fhict.nl/I507960/touchscreen-festiplugs.git]
+   git clone [https://github.com/brentvanmalsen/touchscreen-festiplugs.git]
 
 2. **Navigate through the Pages:**
    Start with launchpage.html to initiate the FestiPlugs screen.
@@ -65,4 +65,3 @@ If you have ideas for improvements or want to extend the functionality, consider
 ## Author
 
 Name: Brent van Malsen  
-GitLab: https://git.fhict.nl/I507960
